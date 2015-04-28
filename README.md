@@ -15,7 +15,10 @@ This source code is for Local Environment only.
   <li>Open the "local.php" file in "barcode-generator-v1-master/barcodeGenerator/Config" with any text editors.</li>
   <li>Change the Constant Definition</li>
   <ol>
-  
+     <li>BASE_URI : The absolute path of the main folder.</li>
+     <li>CACHE_URI : The absolute path of the "cache" folder.</li>
+     <li>PUBLIC_URL : The url path of the "public_html" folder.</li>
+     <li>CACHE_URL : The url path of the "cache" folder.</li>
   </ol>
   <li>Run XAMMPP Apache and enter the address where this stored.</li>
 </ol>
