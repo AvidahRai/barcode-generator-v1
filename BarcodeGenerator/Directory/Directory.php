@@ -44,7 +44,7 @@
 		}
 
 		/**
-		 * Returns either URI or URL location of all the choosen file from the Cache directory.
+		 * Return either the URI or URL location of all the choosen file from the Cache directory.
 		 * @param string $file_name
 		 * @param const $fetch_mode
 		 * @return string
@@ -64,7 +64,7 @@
 		}
 
 		/**
-		 * Returns either URI or URL location of all the files in the Cache directory.
+		 * Return either the URI or URL location of all the files in the directory.
 		 * @param const $fetch_mode
 		 * @return multitype:string
 		 */
@@ -96,7 +96,7 @@
 		}		
 		
 		/**
-		 * Checks if the given file exists in the directory.
+		 * Check if the file exists in the directory.
 		 * @param string $file_name
 		 * @return boolean
 		 */
@@ -117,7 +117,7 @@
 				
 		/**
 		 * Sort the files in the directory by modified time.
-		 * @return boolean
+		 * @return void
 		 */
 		private function _sortFiles() {
 			uasort($this->_files, function ($x, $y) { return ($x['modified_time'] > $y['modified_time']); });
