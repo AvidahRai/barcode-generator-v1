@@ -1,0 +1,12 @@
+<h3>ISBN <small>International Standard Book Number</small></h3>
+<p>ISBN is a unique commercial book identifer. ISBN barcodes uses EAN-13 symbology for representing it in a barcode.</p>
+<div class="col-lg-6">
+	<form id="barcodeForm" onsubmit = "return processBarcode();">
+		<input type="hidden" name="selected_symbology" value="ISBN"/>
+		  <div class="form-group">
+			<label for="inputData">Enter a valid 10/13 Digits ISBN</label>
+			<input type="number" class="form-control" id="inputData" name="input_data" placeholder="E.g. 9783161484100" required>
+		  </div>
+		<button type="submit" class="btn btn-primary">GENERATE</button>
+	</form>	
+</div>	

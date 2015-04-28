@@ -1,0 +1,14 @@
+<h4>Result</h4> 
+<?php 
+	if ($data['result']['success']) { 
+		echo "
+			<p>Symbology: {$data['selected_symbology']}</p>
+			<p>Input Data: {$data['input_data']}</p>
+			<p>Magnification: 160 % </p>
+			<p class=\"text-success\"><small> Right click and save to download</small></p>
+			<img src=\"{$data['result']['value']}\">
+		";		
+	}  else { 
+		echo '<h4 class = "text-danger">'.$data['result']['value'].'</h4>';
+	} 
+?>

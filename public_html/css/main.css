@@ -1,0 +1,23 @@
+/* 
+	|--------------------------------------------------------------------------
+	| Name : main.css
+	| Creator : Avinash Rai
+	| Purpose: Main stylesheet file
+	|--------------------------------------------------------------------------
+*/
+
+@charset "UTF-8";
+
+	body {
+		margin:0 20px 0 20px;
+	}
+	
+	#symbology-menu  img {
+		height:65px; 
+		width: auto;
+	}
+	
+	#recently-generated img {
+		width:auto; 
+		height:100px;
+	}

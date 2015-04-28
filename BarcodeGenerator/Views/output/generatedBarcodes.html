@@ -1,0 +1,15 @@
+<h4>Recently Generated Barcodes &nbsp;<span class="badge"><?php echo count($data);?></span></h4>
+<?php 
+	if (count($data) > 0) { 
+		echo '<ul class="nav nav-pills">';
+		foreach ($data as $file_url) { 
+			echo <<<IMAGE
+				<li role="presentation" onclick="loadBarcode()">
+					<a href = "javascript:void(0)" class="text-center">
+						<img src="$file_url"/>
+					</a>
+				</li>
+IMAGE;
+		}
+		echo '</ul>';
+	}

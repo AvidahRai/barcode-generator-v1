@@ -1,0 +1,13 @@
+<h3>UPC-A <small>Universal Product Code</small></h3>
+<p>The UPC-A Bar Code is used to encode a GTIN-12 and can be scanned in both a retail Point-of-Sale (POS)
+and a General Distribution Scanning Environment. </p>
+<div class="col-lg-6">
+	<form id="barcodeForm" onsubmit = "return processBarcode();">
+		<input type="hidden" name="selected_symbology" value="UPC-A"/>
+		<div class="form-group">
+			<label for="inputData">Enter a valid 12-digits UPC</label>
+			<input type="number" class="form-control" id="inputData" name="input_data" placeholder="E.g. 712345000019" required>
+		</div>
+		<button type="submit" class="btn btn-primary">GENERATE</button>
+	</form>	
+</div>	

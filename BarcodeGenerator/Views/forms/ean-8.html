@@ -1,0 +1,12 @@
+<h3>EAN-8 <small>International Article Number</small></h3>
+<p>The EAN-8 Bar Code is used to encode a GTIN-8 and is intended for scanning at retail POS only.</p>
+<div class="col-lg-6">
+	<form id="barcodeForm" onsubmit = "return processBarcode();">
+		<input type="hidden" name="selected_symbology" value="EAN-8"/>
+		<div class="form-group">
+			<label for="inputData">Enter a valid 8-digits EAN</label>
+			<input type="number" class="form-control" id="inputData" name="input_data" placeholder="E.g. 96385074" required>
+		</div>
+	    <button type="submit" class="btn btn-primary">GENERATE</button>
+	</form>	
+</div>	
