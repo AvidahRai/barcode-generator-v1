@@ -11,5 +11,11 @@ This source code is for Local Environment only.
 
 <ol>
   <li>Download the Application zip file and extract the folder.</li>
-  <li>Download the Application zip file and extract the folder.</li>
+  <li>Copy the "barcode-generator-v1-master" in the XAMMPP's htdocs folder. Rename if desired.</li>
+  <li>Open the "local.php" file in "barcode-generator-v1-master/barcodeGenerator/Config" with any text editors.</li>
+  <li>Change the Constant Definition</li>
+  <ol>
+  
+  </ol>
+  <li>Run XAMMPP Apache and enter the address where this stored.</li>
 </ol>
