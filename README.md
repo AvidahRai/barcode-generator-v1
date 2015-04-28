@@ -11,14 +11,14 @@ This source code is for Local Environment only.
 
 <ol>
   <li>Download the Application zip file and extract the folder.</li>
-  <li>Copy the "barcode-generator-v1-master" in the XAMMPP's htdocs folder. Rename if desired.</li>
+  <li>Copy the "barcode-generator-v1-master" folder in the XAMMPP's <strong>htdocs</strong> folder. Rename if desired.</li>
   <li>Open the "local.php" file in "barcode-generator-v1-master/barcodeGenerator/Config" with any text editors.</li>
-  <li>Change the Constant Definition</li>
+  <li>* Change the Constant Definition values. DONT CHANGE THE STRING NAME.*</li>
   <ol>
-     <li>BASE_URI : The absolute path of the main folder.</li>
-     <li>CACHE_URI : The absolute path of the "cache" folder.</li>
-     <li>PUBLIC_URL : The url path of the "public_html" folder.</li>
-     <li>CACHE_URL : The url path of the "cache" folder.</li>
+     <li>BASE_URI : The absolute path of the main folder. E.g. C:\Program Files\XAMPP\htdocs\barcode-generator-v1-master\\</li>
+     <li>CACHE_URI : The absolute path of the "cache" folder. E.g. C:\Program Files\XAMPP\htdocs\barcode-generator-v1-master\public_html\cache\\</li>
+     <li>PUBLIC_URL : The url path of the "public_html" folder. E.g. http://localhost/barcode-generator-v1-master/public_html/</li>
+     <li>CACHE_URL : The url path of the "cache" folder. E.g. http://localhost/barcode-generator-v1-master/public_html/</li>
   </ol>
-  <li>Run XAMMPP Apache and enter the address where this stored.</li>
+  <li>Run XAMMPP Apache and enter the URL address of the "public_html" folder on the browser. E.g. http://localhost/barcode-generator-v1-master/public_html/</li>
 </ol>
