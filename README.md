@@ -2,6 +2,12 @@
 
 Barcode Generator is an one-page web-application, developed for generating barcodes from user input. Currently, it can generate five different symbologies of barcode:- UPC-A. UPC-E, EAN-8, EAN-13 and ISBN. The built-in PHP GD Library can create raster graphics which made it possible to generate the Barcodes.
 
+<h3>Features</h3>
+<ol>
+  <li>Generate five symbologies of Barcode Graphic: UPC-A, UPC-E, EAN-8, EAN-13 and ISBN</li>
+  <li>Visitor's IP and Session based Caching for storing and display Barcodes.</li>
+</ol>
+
 <h3> Setup Instructions </h3> 
 This source code is for Local Environment only.
 
