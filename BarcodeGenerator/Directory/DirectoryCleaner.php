@@ -10,6 +10,7 @@
 		
 		/**
 		* Create a new DirectoryCleaner instance
+		* @return void
 		*/
 		public function __construct() { 
 			# Create the FilesystemIterator Object from Cache
