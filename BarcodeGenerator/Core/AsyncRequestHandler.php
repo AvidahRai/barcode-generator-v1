@@ -62,7 +62,7 @@
 		}
 		
 		/**
-		 * Process barc
+		 * Process the input data to generate a barcode
 		 * @return null
 		 */
 		public function processBarcode() {	
@@ -78,7 +78,7 @@
 		}
 		
 		/**
-		 * 
+		 * Get the previously generated barcodes
 		 * @return null
 		 */
 		public function getGeneratedBarcodes() {
@@ -88,7 +88,6 @@
 		}
 
 		/**
-		 * Private Implementation Method.
 		 * Check if the request from the Browser is Asynchronous.
 		 * @return boolean;
 		 */
