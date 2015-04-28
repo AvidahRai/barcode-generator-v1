@@ -1,7 +1,7 @@
 <?php namespace BarcodeGenerator\Barcodes; 
 	
 	/**
-	* 
+	* Static BarcodeFactory Class
 	* @author Avinash Rai
 	*/
 	class BarcodeFactory { 
