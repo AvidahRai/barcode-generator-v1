@@ -6,5 +6,10 @@ Check out The live version is up and running in http://barcode-generator.avinash
 
 Check out the Design Document in http://avinashrai.com/Documentation/101/3.Design 
 
-<h3> Setup Instruction </h3> 
+<h3> Setup Instructions </h3> 
 This source code is for Local Environment only.
+
+<ol>
+  <li>Download the Application zip file and extract the folder.</li>
+  <li>Download the Application zip file and extract the folder.</li>
+</ol>
