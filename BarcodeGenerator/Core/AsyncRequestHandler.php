@@ -12,6 +12,7 @@
 		
 		/**
 		 * Create a new AsyncRequestHandler instance
+		 * @return void
 		 */
 		function __construct() { 	
 			if (!$this->_isAsynchronous()) { 
@@ -36,7 +37,7 @@
 		/**
 		 * Render the form for the selected barcode symbology.
 		 * @param string $symbology 
-		 * @return void;
+		 * @return void
 		 */ 
 		public function loadForm($symbology=null) {
 			switch (strtolower($symbology)) { 
@@ -79,7 +80,7 @@
 		
 		/**
 		 * Get the previously generated barcodes
-		 * @return null
+		 * @return void
 		 */
 		public function getGeneratedBarcodes() {
 			$facade = new MainFacade();
@@ -100,7 +101,7 @@
 		
 		/**
 		 * Parse the URL request into an array.
-		 * @return Array;
+		 * @return mixed;
 		 */
 		private function _parseURLRequest() {
 			if (isset($_GET['url'])) {
