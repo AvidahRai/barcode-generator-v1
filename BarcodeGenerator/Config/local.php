@@ -24,8 +24,8 @@
 		define ('DS','/');
 		define ('BASE_URI', ''); # E.g. C:\Program Files (x86)\XAMPP\htdocs\barcode-generator\\
 		define ('CACHE_URI', ''); # E.g. C:\Program Files (x86)\XAMPP\htdocs\barcode-generator\public_html\cache\\
-		define ('PUBLIC_URL', ''); # E.g. http://localhost/public_html/
-		define ('CACHE_URL', '');  # E.g. http://localhost/public_html/cache/
+		define ('PUBLIC_URL', ''); # E.g. http://localhost/barcode-generator/public_html/
+		define ('CACHE_URL', '');  # E.g. http://localhost/barcode-generator/public_html/cache/
 		
 	/*
 	 |--------------------------------------------------------------------------
