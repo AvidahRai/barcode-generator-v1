@@ -55,7 +55,7 @@
 		
 		/**
 		 * Returns all filenames 
-		 * @return mixed <multitype:, string>
+		 * @return mixed
 		 */
 		public function getBarcodes() {
 			if ($this->_directory->hasFiles()) {  
@@ -69,7 +69,7 @@
 		 * Convert the raster graphic data to a JPEG file
 		 * @param raster graphic $raster_graphic
 		 * @param string $path
-		 * @return string
+		 * @return void
 		 */
 		private function _storeBarcode($raster_graphic, $input_data) { 
 			$file_name = $this->_directory->getPath().DS.$input_data.'.jpg'; 
