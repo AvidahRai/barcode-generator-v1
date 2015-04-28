@@ -16,19 +16,19 @@ This source code is for Local Environment only.
   <li>* Change the Constant Definition values to fit your Folder placement. DONT CHANGE THE STRING NAME.*</li>
   <ol>
      <li>BASE_URI : The absolute path of the main folder. <br/>
-     <small>E.g. C:\Program Files\XAMPP\htdocs\barcode-generator-v1-master\\</small>
+     <i>E.g. C:\Program Files\XAMPP\htdocs\barcode-generator-v1-master\\</i>
      </li>
      <li>CACHE_URI : The absolute path of the "cache" folder. <br/>
-     <small>E.g. C:\Program Files\XAMPP\htdocs\barcode-generator-v1-master\public_html\cache\\</small>
+     <i>E.g. C:\Program Files\XAMPP\htdocs\barcode-generator-v1-master\public_html\cache\\</i>
      </li>
      <li>PUBLIC_URL : The url path of the "public_html" folder. <br/>
-     <small>E.g. http://localhost/barcode-generator-v1-master/public_html/</small>
+     <i>E.g. http://localhost/barcode-generator-v1-master/public_html/</i>
      </li>
      <li>CACHE_URL : The url path of the "cache" folder.<br/>
-     <small>E.g. http://localhost/barcode-generator-v1-master/public_html/</small>
+     <i>E.g. http://localhost/barcode-generator-v1-master/public_html/</i>
      </li>
   </ol>
   <li>Run XAMMPP Apache and enter the URL address of the "public_html" folder on the browser.<br/> 
-  <small>E.g. http://localhost/barcode-generator-v1-master/public_html/</small>
+  <i>E.g. http://localhost/barcode-generator-v1-master/public_html/</i>
   </li>
 </ol>
