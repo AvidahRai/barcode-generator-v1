@@ -31,8 +31,8 @@ This source code is for Local Environment only.
 
 <h3>Links</h3>
 
-Check out The live version is up and running in http://barcode-generator.avinashrai.com/ 
+Check out the live version at http://barcode-generator.avinashrai.com/ 
 
-Check out the Design Document in http://avinashrai.com/Documentation/101/3.Design 
+Check out the application Design Document at http://avinashrai.com/Documentation/101/3.Design 
 
 Check out my Website: http://avinashrai.com/
