@@ -34,11 +34,3 @@ This source code is for Local Environment only.
   <i>E.g. http://localhost/barcode-generator-v1-master/public_html/</i>
   </li>
 </ol>
-
-<h3>Links</h3>
-
-Check out the live version at http://barcode-generator.avinashrai.com/ 
-
-Check out the application Design Document at http://avinashrai.com/Documentation/101/3.Design 
-
-Check out my Website: http://avinashrai.com/
